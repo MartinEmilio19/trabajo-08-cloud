@@ -5,7 +5,7 @@
     background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif
 }
-.conteiner{
+.contenedor{
     display: flex;
     color: white;
     flex-direction: column;
@@ -13,7 +13,14 @@
     gap: 30px;
     margin: 100px;
 }
-.slot{
+.cuadro1{
+    width: 700px;
+    background-color: rgb(61, 58, 58);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.cuadro2{
     width: 700px;
     background-color: rgb(61, 58, 58);
     border-radius: 10px;
